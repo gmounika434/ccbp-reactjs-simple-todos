@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.simple-todo-container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 14px;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .simple-todo-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+
+.heading {
+  color: #ff8542;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-size: 48px;
+  }
+}
+
+.todo-list {
+  padding-left: 0px;
+}
